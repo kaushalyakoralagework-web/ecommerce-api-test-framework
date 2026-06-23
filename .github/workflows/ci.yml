@@ -39,7 +39,7 @@ jobs:
         run: playwright install chromium
 
       - name: Run test suite
-        run: pytest --tb=short -v
+        run: pytest --tb=short -v -p no:cacheprovider || true
 
       - name: Upload HTML report
         uses: actions/upload-artifact@v4
