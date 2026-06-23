@@ -1,0 +1,44 @@
+default_environment: dev
+
+environments:
+  dev:
+    base_url: "https://fakestoreapi.com"
+    timeout: 30
+    retry_attempts: 3
+    verify_ssl: true
+    headers:
+      Content-Type: "application/json"
+      Accept: "application/json"
+
+  staging:
+    base_url: "https://fakestoreapi.com"
+    timeout: 45
+    retry_attempts: 3
+    verify_ssl: true
+    headers:
+      Content-Type: "application/json"
+      Accept: "application/json"
+
+  prod:
+    base_url: "https://fakestoreapi.com"
+    timeout: 60
+    retry_attempts: 2
+    verify_ssl: true
+    headers:
+      Content-Type: "application/json"
+      Accept: "application/json"
+
+ui:
+  browser: "chromium"
+  headless: true
+  slow_mo: 0
+  viewport:
+    width: 1280
+    height: 720
+  base_url: "https://fakestoreapi.com"
+  timeout: 30000
+
+reporting:
+  html_report: "reports/report.html"
+  allure_dir: "reports/allure-results"
+  screenshot_on_failure: true
