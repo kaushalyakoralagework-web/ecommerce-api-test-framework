@@ -182,4 +182,4 @@ allure serve reports/allure-results
 **Kaushalya Koralage**
 Senior QA Automation Engineer | ISTQB CTFL
 [LinkedIn](https://www.linkedin.com/in/kaushalya-koralage) |
-[GitHub](https://github.com/kaushalyakoralagework-web)
+[GitHub](https://github.com/kaushalyakoralagework-web)# CI trigger
