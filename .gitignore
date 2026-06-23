@@ -1,2 +1,37 @@
-.idea
+# Virtual environment
 venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Test reports
+reports/
+.pytest_cache/
+.allure/
+allure-results/
+
+# Environment files
+.env
+*.env
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Distribution
+*.egg-info/
+dist/
+build/
+
+# Logs
+logs/
+*.log
